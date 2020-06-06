@@ -1,0 +1,19 @@
+.about-us
+{
+    background: #f8f8f8;
+    padding:0 0 60px;
+}
+.about-us .container .row .about
+{
+    background: #fff;
+    border:1px solid #f1f1f1;
+    border-radius: 5px;
+    padding:40px 0;
+}
+.about-us .container .row .about p
+{
+    padding:25px 40px 0;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+}

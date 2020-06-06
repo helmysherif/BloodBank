@@ -1,0 +1,159 @@
+.content6
+{
+    background: #f1f1f1;
+    padding:60px 0;
+}
+.content6 .container .row h2
+{
+    text-align: center;
+    font-size: 25px;
+    color:#e41e25;
+    font-weight: 700;
+    margin:0;
+    padding:0;
+    padding-bottom:10px;
+}
+.content6 .container .row .border2
+{
+    width:150px;
+    height:3px;
+    background: #e41e25;
+    display: block;
+    margin:0 auto;
+    margin-bottom:50px;
+}
+.content6 .container .row form select
+{
+    height:50px;
+    border-radius: 35px;
+    border:0;
+    padding:10px 20px;
+    margin-bottom:40px;
+    position: relative;
+}
+.content6 .container .row form select option
+{
+    background:#2d3e50;
+    color:#fff;
+}
+.content6 form a
+{
+    text-decoration: none;
+    position: absolute;
+    left: -44px;
+    color: #2d3e50;
+    background: #fff;
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+.content6 .container .row .data
+{
+    background: #fff;
+    margin-top:30px;
+    border-top-right-radius:70px;
+    border-bottom-right-radius:70px;
+    height:170px;
+    padding:0 40px;
+    margin-bottom:30px;
+    display: flex;
+    align-items: center;
+}
+.content6 .data .blood-type
+{
+    margin-top:10px;
+    margin-left: 40px;
+}
+.content6 .data .blood-type p
+{
+    font-family: 'Cairo', sans-serif;
+    font-size:25px;
+    font-weight: 600;
+    color:#2d3e50;
+    border-radius: 50%;
+    background: #f5f5f5;
+    padding:40px;
+    width: 120px;
+    height: 120px;
+}
+.content6 .data .patient
+{
+    font-family: 'Cairo', sans-serif;
+    font-size:20px;
+    text-align: right;
+    width:100%;
+}
+.content6 .data .details 
+{
+    text-align: left;
+    width:100%;
+}
+.content6 .data .details a
+{
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    color:#2d3e50;
+    background: #f5f5f5;
+    padding:15px 45px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .3s;
+}
+.content6 .data .details a:hover
+{
+    color:#fff;
+    background: #2d3e50;
+}
+.content6 .more
+{
+    text-decoration: none;
+    color:#fff;
+    background-color: #2d3e50;
+    font-size: 20px;
+    font-weight: 500;
+    padding:12px 60px;
+    display: inline-block;
+    margin:30px auto 0;
+}
+@media(max-width:768px)
+{
+    .content6 .container .row form .form-control
+    {
+        display: block;
+    }
+    .content6 form a
+    {
+        position: inherit;
+        height: 45px;
+        display: block;
+        margin:0 auto;
+    }
+    .content6 .container .row .data
+    {
+        display: block;
+        width:100%;
+        height: 450px;
+        border-radius: 0;
+    }
+    .content6 .data .blood-type 
+    {
+        margin-left: 0;
+        text-align: center;
+    }
+    .content6 .data .blood-type p
+    {
+        margin: 40px auto;
+        position: relative;
+        top: 20px;
+    }
+    .content6 .data .patient
+    {
+        font-size: 18px;
+        margin: 50px 0;
+        text-align: center;
+    }
+    .content6 .data .details 
+    {
+        text-align: center;
+        margin: 50px 0;
+    }
+}

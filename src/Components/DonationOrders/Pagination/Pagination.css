@@ -1,0 +1,20 @@
+.pagination
+{
+    background: #f8f8f8;
+    text-align: center;
+    padding:20px 0 40px;
+}
+.pagination .page a
+{
+    text-decoration: none;
+    font-size: 17px;
+    padding:5px 15px;
+    border:1px solid #f1f1f1;
+    color:#2d3e50;
+}
+.pagination .page a.active,
+.pagination .page a:hover
+{
+    background: #2d3e50;
+    color:#fff;
+}

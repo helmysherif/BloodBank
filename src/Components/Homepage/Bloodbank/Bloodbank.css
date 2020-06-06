@@ -1,0 +1,25 @@
+.content4
+{
+    text-align: right;
+    background: url('../../../assets/imgs/about.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding:70px 0;
+}
+.content4 .container .row .about 
+{
+    text-align: center;
+}
+.content4 .container .row .about p
+{
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500;
+}
+@media(max-width:991px)
+{
+    .content4
+    {
+        background-size: cover;
+    }
+}

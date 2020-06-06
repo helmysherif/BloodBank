@@ -1,0 +1,135 @@
+.donation
+{
+    background: #f8f8f8;
+}
+.donation .container .row h2
+{
+    color: #e41e25;
+    font-weight: 600;
+    font-size: 22px;
+    margin:0;
+    padding:0;
+    padding:30px 0 0;
+}
+.donation .container .row .border2
+{
+    width:130px;
+    height:3px;
+    background: #e41e25;
+    display: inline-block;
+    margin:15px 0 40px;
+}
+.donation .container .row form select
+{
+    height:50px;
+    border-radius: 35px;
+    border:0;
+    padding:10px 20px;
+    margin-bottom:40px;
+    position: relative;
+}
+.donation .container .row form select option
+{
+    background:#2d3e50;
+    color:#fff;
+}
+.donation .container .row .data
+{
+    background: #fff;
+    margin-top:30px;
+    border-top-right-radius:70px;
+    border-bottom-right-radius:70px;
+    height:170px;
+    padding:0 40px;
+    margin-bottom:30px;
+    display: flex;
+    align-items: center;
+}
+.donation .data .blood-type
+{
+    margin-top:10px;
+    margin-left: 40px;
+}
+.donation .data .blood-type p
+{
+    font-family: 'Cairo', sans-serif;
+    font-size:30px;
+    font-weight: 800;
+    color:#2d3e50;
+    border-radius: 50%;
+    background: #f5f5f5;
+    padding:33px;
+    width: 120px;
+    height: 120px;
+}
+.donation .data .patient
+{
+    font-family: 'Cairo', sans-serif;
+    font-size:20px;
+    text-align: right;
+    width:100%;
+}
+.donation .data .details 
+{
+    text-align: left;
+    width:100%;
+}
+.donation .data .details a
+{
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    color:#2d3e50;
+    background: #f5f5f5;
+    padding:15px 45px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .3s;
+}
+.donation .data .details a:hover
+{
+    color:#fff;
+    background: #2d3e50;
+}
+@media(max-width:768px)
+{
+    .donation .container .row form .form-control
+    {
+        display: block;
+    }
+    .donation form a
+    {
+        position: inherit;
+        height: 45px;
+        display: block;
+        margin:0 auto;
+    }
+    .donation .container .row .data
+    {
+        display: block;
+        width:100%;
+        height: 450px;
+        border-radius: 0;
+    }
+    .donation .data .blood-type 
+    {
+        margin-left: 0;
+        text-align: center;
+    }
+    .donation .data .blood-type p
+    {
+        margin: 40px auto;
+        position: relative;
+        top: 20px;
+    }
+    .donation .data .patient
+    {
+        font-size: 18px;
+        margin: 50px 0;
+        text-align: center;
+    }
+    .donation .data .details 
+    {
+        text-align: center;
+        margin: 50px 0;
+    }
+}

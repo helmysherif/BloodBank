@@ -1,0 +1,120 @@
+.footer
+{
+    background: #191f25;
+    padding:50px 0;
+}
+.footer .container .row .blood
+{
+    text-align: right;
+    color:#fff;
+}
+.footer .container .row .blood img
+{
+    margin-bottom:30px;
+}
+.footer .container .row .blood p
+{
+    color:#fff;
+    font-size:16px;
+    padding-top:25px;
+    width:300px;
+}
+.footer .container .row ul
+{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-align: center;
+}
+.footer .container .row ul li
+{
+    margin-bottom:30px;
+}
+.footer .container .row ul li a
+{
+    text-decoration: none;
+    color:#fff;
+    font-size: 17px;
+    font-weight: 500;
+}
+.footer .container .row ul li.active a
+{
+    color: #e41e25;
+}
+.footer .container .row .available
+{
+    text-align: center;
+}
+.footer .container .row .available p
+{
+    color:#e41e25;
+}
+.footer .container .row .available img
+{
+    margin:20px 0;
+}
+@media(max-width:991px)
+{
+    .footer .container .row .blood p
+    {
+        width:100%;
+    }
+    .footer .container .row .available img
+    {
+        margin:20px 10px;
+    }
+}
+.bottom-footer
+{
+    background-color: #14171c;
+    padding:2rem 0;
+}
+.bottom-footer .container .row .icons
+{
+    text-align: right;
+}
+.bottom-footer .container .row .icons a
+{
+    text-decoration: none;
+    color:#fff;
+    font-size: 25px;
+    padding-left: 25px;
+}
+.bottom-footer .container .row .icons a i
+{
+    transition: .3s;
+}
+.bottom-footer .container .row .icons a .fa-facebook-f:hover
+{
+    color:#3b5999;
+}
+.bottom-footer .container .row .icons a .fa-instagram:hover
+{
+    color: #e4405f;
+}
+.bottom-footer .container .row .icons a .fa-twitter:hover
+{
+    color: #55acee;
+}
+.bottom-footer .container .row .icons a .fa-whatsapp:hover
+{
+    color: #25D366;
+}
+.bottom-footer .container .row p
+{
+    color:#fff;
+    margin:0;
+    padding:0;
+}
+.bottom-footer .container .row p span
+{
+    color:#e41e25;
+}
+@media(max-width:768px)
+{
+    .bottom-footer .container .row .icons,
+    .bottom-footer .container .row p
+    {
+        text-align: center;
+    }
+}

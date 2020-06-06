@@ -1,0 +1,66 @@
+.register
+{
+    background: #f8f8f8;
+    padding:0 0 50px;
+}
+.register .container .row .account
+{
+    background: #fff;
+    border:1px solid #f1f1f1;
+    padding:40px 70px;
+}
+.register .container .row .account form input:focus
+{
+    outline: none;
+}
+.register .container .row .account form input,
+.register .container .row .account form select
+{
+    border:0;
+    border-radius: 0;
+    background: #f4f4f4;
+    height: 55px;
+}
+.register .container .row .account form select option
+{
+    border:0;
+}
+.react-datepicker-wrapper
+{
+    width:100%;
+}
+.react-datepicker-wrapper input
+{
+    height:55px;
+}
+.react-datepicker-wrapper input::placeholder
+{
+    font-size: 20px;
+}
+.register .container .row .form-group
+{
+    position: relative;
+}
+.register .container .row .form-group a
+{
+    position: absolute;
+    top: 4px;
+    left: 2%;
+    text-decoration: none;
+    color:#2d3e50;
+    font-size: 30px;
+}
+.login2
+{
+    width:100%;
+    margin:30px 0 0;
+    padding:10px 0;
+    font-size: 20px;
+}
+@media(max-width:768px)
+{
+    .register .container .row .account
+    {
+        padding:40px 20px;
+    }
+}

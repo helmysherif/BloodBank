@@ -1,0 +1,56 @@
+.content5
+{
+    padding:70px 0;
+    text-align: right;
+}
+.content5 .container .row h3
+{
+    color: #e41e25;
+    font-weight: 600;
+    font-size: 25px;
+    margin:0;
+    padding:0;
+}
+.content5 .container .row .border2
+{
+    width:120px;
+    height:3px;
+    background: #e41e25;
+    display: inline-block;
+    margin-bottom:50px;
+}
+.content5 .container .row .card 
+{
+    padding:5px;
+    border-radius: 0;
+}
+.content5 .container .row .card .card-body
+{
+    padding:20px 10px;
+}
+.content5 .container .row .card .card-title
+{
+    color:#e41e25;
+    font-weight: 600;
+}
+.content5 .container .row .card .card-text
+{
+    color:#000;
+    font-size: 15px;
+}
+.content5 .container .row .card button
+{
+    background: #2d3e50;
+    border:0;
+    border-radius:0;
+    outline:0;
+    padding:10px 40px;
+    margin:10px 0 0;
+}
+@media(max-width:991px)
+{
+    .content5 .container .row .card 
+    {
+        margin-bottom:40px;
+    }
+}

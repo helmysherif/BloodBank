@@ -1,0 +1,88 @@
+.register
+{
+    background: #f8f8f8;
+    padding:0 0 50px;
+}
+.register .container .row .account
+{
+    background: #fff;
+    border:1px solid #f1f1f1;
+    padding:40px 70px;
+}
+.register .container .row .account form input:focus
+{
+    outline: none;
+}
+.register .container .row .account form input
+{
+    border:0;
+    border-radius: 0;
+    background: #f4f4f4;
+    height: 55px;
+}
+.inputs,.buttons2
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top:20px;
+}
+.register .container .row .account .form-check
+{
+    text-align: right;
+    position: relative;
+}
+.register .container .row .account .form-check input
+{
+    position: absolute;
+    top: -17px;
+    width: 15px;
+}
+.register .container .row .account .form-check label
+{
+    padding-right: 20px;
+    font-size: 20px;
+}
+.register .container .row .account .forgot a
+{
+    text-decoration: none;
+    color: #2d3e50;
+    font-size: 20px;
+}
+.register .container .row .account .forgot img
+{
+    width:25px;
+    height:25px;
+    margin-left: 15px;
+}
+.login2,.login3
+{
+    width:100%;
+    font-size: 20px;
+}
+.login3
+{
+    background: #2d3e50;
+    width: 90%;
+    margin: 30px auto;
+}
+.buttons2 button
+{
+    width: 90%;
+    margin: 30px auto;
+}
+.login3:hover
+{
+    background: #2d3e50;
+}
+@media(max-width:768px)
+{
+    .register .container .row .account
+    {
+        padding:40px 20px;
+    }
+    .inputs,.buttons2
+    {
+        display: block;
+        text-align: center;
+    }
+}

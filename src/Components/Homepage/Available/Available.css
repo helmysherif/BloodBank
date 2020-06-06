@@ -1,0 +1,50 @@
+.content8
+{
+    background: url('../../../assets/imgs/BG-phone.png');
+    background-size: cover;
+    padding:50px 0;
+    margin-top:-10px;
+}
+.content8 .container .row .text2
+{
+    text-align: right;
+}
+.content8 .container .row .text2 h4
+{
+    font-weight: 600;
+    color: #5c7186;
+    margin:0 0 20px;
+}
+.content8 .container .row .text2 p
+{
+    font-size: 23px;
+    line-height: 40px;
+}
+.content8 .container .row .available
+{
+    text-align: center;
+    margin:70px 0 0;
+}
+.content8 .container .row .available h6
+{
+    font-size: 20px;
+    color:#5c7186;
+    font-weight: 600;
+    margin:0 0 30px;
+}
+.content8 .container .row .available a
+{
+    margin-right: 15px;
+}
+@media(max-width:768px)
+{
+    .content8 .container .row img
+    {
+        width:100%;
+        margin-bottom:30px;
+    }
+    .content8 .container .row .available a
+    {
+        margin-right:0;
+    }
+}

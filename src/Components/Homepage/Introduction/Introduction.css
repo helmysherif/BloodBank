@@ -1,0 +1,40 @@
+.content3
+{
+    background: url('../../../assets/imgs/BG.jpg');
+    background-size: cover;
+    padding:170px 0;
+    text-align: right;
+}
+.content3 .container .row .title h1
+{   
+    font-size:30px;
+    color: #e41e25;
+    font-weight: 600;
+}
+.content3 .container .row .title p
+{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    padding:20px 0;
+}
+.content3 .container .row .title a
+{
+    background: #5c7186;
+    text-decoration: none;
+    color:#fff;
+    font-size: 23px;
+    padding:11px 70px;
+    display: inline-block;
+}
+@media(max-width:768px)
+{
+    .content3
+    {
+        padding:70px 0;
+    }
+    .content3 .container .row .title 
+    {
+        text-align: center;
+    }
+}
